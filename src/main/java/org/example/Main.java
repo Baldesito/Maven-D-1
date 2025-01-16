@@ -17,7 +17,9 @@ public class Main
         List<Persona> listaPersone = Arrays.asList(
                 new Persona("AB123", faker.name().fullName()),
                 new Persona("AB125", faker.name().fullName()),
-                new Persona("AB121", faker.name().fullName())
+                new Persona("AB121", faker.name().fullName()),
+                new Persona("nhfhh", faker.name().fullName().strip())
+
             );
         listaPersone.forEach(System.out::println);
     }
